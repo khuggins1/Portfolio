@@ -1,21 +1,9 @@
-import React from 'react';
-//import logo from './logo.svg';
 
-import About from './components/about';
-import Nav from './components/nav';
-import './App.css';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
+const App = () => <PortfolioContainer />;
 
-function App() {
-  return (
-    <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-      </main>
-    </div>
-  );
-}
 export default App;
 
 
