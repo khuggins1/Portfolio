@@ -30,7 +30,7 @@ nav {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(235, 195, 64);
+  background-color: tomato;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -38,49 +38,6 @@ nav {
 }
 
 
-/* .hero-image {
-  background-image: url('/portfolio/src/assets/beach.jpeg');
-  
-} */
-
-/* header {
-  display: flex;
-  padding: 20px 30px;
-  background-color: black;
-  justify-content: space-between;
-}
-
-header a:hover {
-background:grey;
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: orange;
-  margin: 0;
-  display: inline;
-}
-
-header a {
-  text-decoration: none;
-  color: orange;
-}
-
-header nav {
-  float: right;
-  margin: 7px 0;
-}
-
-header nav ul li {
-  display: inline;
-}
-
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
-} */
 ::marker {
   color: transparent;
 }

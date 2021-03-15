@@ -1,10 +1,19 @@
 import React from "react";
 
 import PortfolioContainer from "./components/PortfolioContainer";
+import Footer from "./footer";
 
 
-const App = () => <PortfolioContainer />;
-
+function App () {
+    return (
+        <div>
+            <header>
+                <PortfolioContainer></PortfolioContainer>
+            </header>
+            <Footer></Footer>
+        </div>
+    )
+}
 
 
 
