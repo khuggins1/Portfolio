@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul.nav {
+  display:flex;
+  justify-content: space-around;
+
+}
+
+ul.nav a:hover {
+  background: powderblue;
+
+}
+
+nav {
+  color: black;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: tomato;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+::marker {
+  color: transparent;
+}
