@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import '../../assets/contact.css'
+
 import { validateEmail } from '../../utils/helpers'
 
 
@@ -41,7 +43,7 @@ function Contact () {
     return (
       <section>
         <h1 data-testid="h1tag">Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form class="flex-box" id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -59,19 +61,18 @@ function Contact () {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button data-testid="button" type="submit">Submit</button>
+          <button class="button" type="submit">Submit</button>
         </form>
 
-        <h2>Contact info</h2>
+        {/* <h2>Contact info</h2>
       <div class="contactinfo">
        P: 562-555-0257
        Github: <a href="https://github.com/khuggins1">Follow my work</a><br></br>
         <a href="https://linkedin.com/in/kassim-huggins">Linkedin</a>
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kassim-huggins"><a class="LI-simple-link" href='https://www.linkedin.com/in/kassim-huggins?trk=profile-badge'>Kassim Huggins</a></div>
-</div>
-      </section>
+</div> */}
+       </section>
 
-    );
+    )
     
   }
 

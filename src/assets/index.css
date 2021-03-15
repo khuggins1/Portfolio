@@ -15,8 +15,33 @@ code {
 ul.nav {
   display:flex;
   justify-content: space-around;
+
 }
 
+ul.nav a:hover {
+  background: powderblue;
+
+}
+
+nav {
+  color: black;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* .hero-image {
+  background-image: url('/portfolio/src/assets/beach.jpeg');
+  
+} */
 
 /* header {
   display: flex;

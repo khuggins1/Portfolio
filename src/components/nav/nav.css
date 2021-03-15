@@ -1,0 +1,10 @@
+
+
+.hero-image {
+    background-image: url("../../assets/palmtree.jpeg");
+    padding: 50px 50px;
+    justify-content: space-around;
+    background-size: cover ;
+    background-position: center;
+  } 
+

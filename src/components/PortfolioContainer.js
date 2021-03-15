@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import Nav from './nav/navbar';
+import Nav from '../utils/navbar';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 import Work from './pages/work';
+import Footer from '../footer';
+
 
 function Navagation() {
   
@@ -18,6 +20,8 @@ function Navagation() {
             return<Resume />;
         case 'Work':
             return<Work />;
+        case 'Footer':
+          return<Footer />;
       default:
         return (<About />)
     
@@ -31,7 +35,9 @@ function Navagation() {
    
       <div>{renderPage(currentPage)}</div>
     </div>
+
   );
+
 }
 
 export default Navagation;
